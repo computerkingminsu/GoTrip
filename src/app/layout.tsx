@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Noto_Sans_KR } from 'next/font/google';
 import './globals.css';
 import LayoutHeader from './layout/layoutHeader';
-import { Toaster } from '@/components/ui/toaster';
+import { Toaster } from '@/components/ui/Toaster';
 import ReactQueryProvider from '@/lib/ReactQueryProvider';
 
 const notoSansKr = Noto_Sans_KR({
