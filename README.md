@@ -1,6 +1,6 @@
 # GoTrip
 
-> **AI 여행지 추천, AI 여행 플래너 웹** <br/> **개발기간: 2024.07** <br/> **1인 개발** <br/> **배포: Vercel** <br/> **사용 기술 <br/> - Next.Js (ver.14) <br/> - Typescript <br/> - TailWind CSS**
+> **AI 여행지 추천, AI 여행 플래너 웹** <br/> **개발기간: 2024.07** <br/> **1인 개발** <br/> **배포: Vercel** <br/> **사용 기술 <br/> - Next.Js (ver.14) <br/> - Typescript <br/> - TailWind CSS <br/> - react-query(v.5)**
 
 ## 배포 주소
 
@@ -31,6 +31,7 @@ GoTrip은 OpenAI의 GPT-4 API를 활용하여 사용자가 선호하는 여행�
 ### ⭐️ 여행지 실시간 정보 제공
 
 - 날씨, 대기질 지수, 환율, 항공편 일정 API를 통해 여행지의 상세한 정보를 실시간으로 제공합니다.
+- 데이터를 캐싱하고, 효율적으로 재사용하기 위해 react-query를 사용하였습니다.
   <br/>[코드 바로가기](https://velog.io/@reactmonster/GoTrip-%EC%97%AC%ED%96%89%EC%A7%80-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EC%A0%95%EB%B3%B4-%EC%A0%9C%EA%B3%B5)
 
 <img src="https://github.com/user-attachments/assets/bed26682-4c35-40a6-b113-9a3b03fbd4bc" width="70%" height="35%"/>
