@@ -23,7 +23,7 @@ GoTrip은 OpenAI의 GPT-4 API를 활용하여 사용자가 선호하는 여행�
 
 ### ⭐️ AI 여행지 추천
 
-- 사용자의 선호도 및 정보를 입력하여 OpenAI API GPT-4 API를 이용해 여행지를 추천합니다. 텍스트 입력 뿐만 아니라 SpeechRecognition을 이용하여 음성으로도 입력이 가능합니다.
+- 사용자의 선호도 및 정보를 입력하여 OpenAI의 GPT-4 API를 이용해 여행지를 추천합니다. 텍스트 입력 뿐만 아니라 SpeechRecognition을 이용하여 음성으로도 입력이 가능합니다.
   <br/>[코드 바로가기](https://velog.io/@reactmonster/GoTrip-AI-%EC%97%AC%ED%96%89%EC%A7%80-%EC%B6%94%EC%B2%9C)
 
 <img src="https://github.com/user-attachments/assets/c740dbde-361f-4883-9d6a-ebd7a6d5fed8" width="70%" height="35%"/>
