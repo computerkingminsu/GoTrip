@@ -113,7 +113,7 @@ For building and running the application you need:
 ### Installation
 
 ```bash
-$ git clone https://github.com/computerkingminsu/GoTrip.git
+$ git clone https://github.com/mmm7k/GoTrip.git
 $ npm install
 $ npm run dev
 ```
