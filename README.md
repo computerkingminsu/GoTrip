@@ -62,9 +62,8 @@ GoTrip은 OpenAI의 GPT-4 API를 활용하여 사용자가 선호하는 여행�
 다이나믹 임포트(dynamic import)를 사용하여 3D 모델을 비동기적으로 로드하였습니다. 이로 인해 초기 로딩 시 필요한 리소스만 우선 로드되었으며, 로딩 UI를 제공하여 사용자에게 즉각적인 시각적 피드백을 제공할 수 있었습니다.<br/>
 <img src="https://github.com/user-attachments/assets/57311fbf-36cd-4dfd-9ccc-0d122dc2cd66" width="70%" height="35%"/><br/>
 
-![image](https://github.com/user-attachments/assets/1fcb3d25-52d6-4c3f-b77c-4b4b2c16e6c8)
-
 ### 성과
+![image](https://github.com/user-attachments/assets/817fd26a-4641-47a6-8bad-a5c0b3f6469b)
 
 - 흰 화면 표시 시간: 1393ms에서 144ms로 약 90% 단축.
 
