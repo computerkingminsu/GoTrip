@@ -63,7 +63,7 @@ GoTrip은 OpenAI의 GPT-4 API를 활용하여 사용자가 선호하는 여행�
 <img src="https://github.com/user-attachments/assets/57311fbf-36cd-4dfd-9ccc-0d122dc2cd66" width="70%" height="35%"/><br/>
 
 ### 성과
-![image](https://github.com/user-attachments/assets/817fd26a-4641-47a6-8bad-a5c0b3f6469b)
+![image](https://github.com/user-attachments/assets/57955add-7002-4ace-8e1c-bceb7bbaddf6)
 
 - 흰 화면 표시 시간: 1393ms에서 144ms로 약 90% 단축.
 
