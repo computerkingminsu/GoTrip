@@ -6,7 +6,7 @@ const roboto = Manrope({
   subsets: ['latin'],
 });
 
-export default function LoadingSpinner() {
+export default function Loading() {
   return (
     <div
       className={`${roboto.className} flex items-center justify-center h-screen bg-[#151825]`}
