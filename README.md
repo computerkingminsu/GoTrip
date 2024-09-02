@@ -63,8 +63,7 @@ GoTrip은 OpenAI의 GPT-4 API를 활용하여 사용자가 선호하는 여행�
 <img src="https://github.com/user-attachments/assets/57311fbf-36cd-4dfd-9ccc-0d122dc2cd66" width="70%" height="35%"/><br/>
 
 ### 결과
-![image](https://github.com/user-attachments/assets/604f3b3e-638b-4003-b0de-f51db2228c60)
-
+![image](https://github.com/user-attachments/assets/3ebf3eed-1b2a-4295-8105-a0e6c5a45a8a)
 
 - FCP(First Contentful Paint) 를 약 57% 단축(201.59ms -> 85.26ms).
 
