@@ -30,6 +30,7 @@ export default function Main() {
   const [isRecording, setIsRecording] = useState(false);
   const [description, setDescription] = useState('');
   const [loading, setLoading] = useState(false);
+  const [showAlert, setShowAlert] = useState(false);
 
   useEffect(() => {
     if (!globeRef?.current) return;
@@ -83,7 +84,6 @@ export default function Main() {
       setDescription('');
     }
   };
-  const [showAlert, setShowAlert] = useState(false);
 
   const handleSendClick = async (prompt: string) => {
     if (!prompt.trim()) {

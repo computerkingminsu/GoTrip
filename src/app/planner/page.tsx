@@ -29,7 +29,7 @@ interface Errors {
   country?: string;
 }
 
-export default function Contact() {
+export default function Planner() {
   const [inputValues, setInputValues] = useState<InputValues>({
     age: '',
     gender: '',
