@@ -63,9 +63,10 @@ GoTrip은 OpenAI의 GPT-4 API를 활용하여 사용자가 선호하는 여행�
 <img src="https://github.com/user-attachments/assets/57311fbf-36cd-4dfd-9ccc-0d122dc2cd66" width="70%" height="35%"/><br/>
 
 ### 결과
-![image](https://github.com/user-attachments/assets/57955add-7002-4ace-8e1c-bceb7bbaddf6)
+![image](https://github.com/user-attachments/assets/604f3b3e-638b-4003-b0de-f51db2228c60)
 
-- 흰 화면 표시 시간: 1393ms에서 144ms로 약 90% 단축.
+
+- FCP(First Contentful Paint) 를 약 57% 단축(201.59ms -> 85.26ms).
 
 ### 배우게 된 점
 
