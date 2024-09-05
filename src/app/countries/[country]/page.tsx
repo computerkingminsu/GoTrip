@@ -12,6 +12,7 @@ import ExchangeRate from '@/components/countries/ExchageRate';
 import Flights from '@/components/countries/Flights';
 import Weather from '@/components/countries/Weather';
 import AQI from '@/components/countries/AQI';
+import ReactQueryProvider from '@/lib/ReactQueryProvider';
 
 interface Attraction {
   image: string;
@@ -155,5 +156,3 @@ export default function Countries() {
     </main>
   );
 }
-
-///////////

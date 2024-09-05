@@ -3,7 +3,6 @@ import { Noto_Sans_KR } from 'next/font/google';
 import './globals.css';
 import LayoutHeader from './layout/layoutHeader';
 import { Toaster } from '@/components/ui/Toaster';
-import ReactQueryProvider from '@/lib/ReactQueryProvider';
 
 const notoSansKr = Noto_Sans_KR({
   weight: ['500'],
@@ -44,15 +43,9 @@ export default function RootLayout({
         />
       </head>
       <body className={`${notoSansKr.className}`}>
-        {/* <LayoutHeader />
-
+        <LayoutHeader />
         {children}
-        <Toaster /> */}
-        <ReactQueryProvider>
-          <LayoutHeader />
-          {children}
-          <Toaster />
-        </ReactQueryProvider>
+        <Toaster />
       </body>
     </html>
   );
