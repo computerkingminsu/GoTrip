@@ -39,7 +39,7 @@ export default function Countries() {
   };
 
   return (
-    <main className="w-screen min-h-screen h-full bg-[#151825]">
+    <main className="min-w-screen min-h-screen h-full bg-[#151825]">
       <div className="flex">
         {/* Sidebar */}
         <aside className="hidden sm:inline-block w-1/6 mt-[9.5vh] px-10 space-y-8">

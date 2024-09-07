@@ -181,7 +181,7 @@ export default function Main() {
 
   return (
     <>
-      <main className="w-screen h-screen bg-[#151825] relative">
+      <main className="min-w-screen min-h-screen bg-[#151825] relative">
         <Globe
           ref={globeRef}
           width={width}

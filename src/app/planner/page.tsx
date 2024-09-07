@@ -186,7 +186,7 @@ export default function Planner() {
 
   return (
     <>
-      <main className="bg-[#151825] w-screen h-screen flex justify-center items-center">
+      <main className="bg-[#151825] min-w-screen min-h-screen flex justify-center items-center">
         {/* left 이미지 */}
         <section className="hidden lg:w-1/2 pl-[10%] lg:flex items-center justify-center">
           <div className="relative h-80 w-80">
