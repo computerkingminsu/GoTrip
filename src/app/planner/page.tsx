@@ -218,6 +218,8 @@ export default function Planner() {
                 name="age"
                 className={`bg-[#1F2232] mt-3 h-7 p-6 rounded-lg text-[#888888] placeholder-[#888888] text-base placeholder:text-base ${errors.age ? 'border border-red-500' : ''}`}
                 placeholder="ex) 27"
+                type="number"
+                min={1}
                 value={inputValues.age}
                 onChange={handleInputChange}
               />
@@ -260,7 +262,9 @@ export default function Planner() {
                 id="budget"
                 name="budget"
                 className={`bg-[#1F2232] mt-3 h-7 p-6 rounded-lg text-[#888888] placeholder-[#888888] text-base placeholder:text-base ${errors.budget ? 'border border-red-500' : ''}`}
-                placeholder="여행을 떠나는데 사용하실 예산을 입력해주세요. ex) 200만원"
+                placeholder="사용하실 예산을 입력해주세요. 단위는 한화 만원입니다."
+                type="number"
+                min={1}
                 value={inputValues.budget}
                 onChange={handleInputChange}
               />
