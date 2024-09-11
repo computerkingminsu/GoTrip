@@ -22,6 +22,8 @@ export function DatePickerWithRange({ className, onChange }) {
     }
   }, [date, onChange]);
 
+  const today = new Date();
+
   return (
     <div className={cn('grid gap-2 w-[100%', className)}>
       <Popover>
@@ -64,6 +66,7 @@ export function DatePickerWithRange({ className, onChange }) {
             selected={date}
             onSelect={setDate}
             numberOfMonths={2}
+            disabled={{ before: today }}
           />
         </PopoverContent>
       </Popover>
