@@ -217,7 +217,7 @@ export default function Planner() {
                 id="age"
                 name="age"
                 className={`bg-[#1F2232] mt-3 h-7 p-6 rounded-lg text-[#888888] placeholder-[#888888] text-base placeholder:text-base ${errors.age ? 'border border-red-500' : ''}`}
-                placeholder="ex) 27"
+                placeholder="ex.27"
                 type="number"
                 min={1}
                 value={inputValues.age}
@@ -262,7 +262,7 @@ export default function Planner() {
                 id="budget"
                 name="budget"
                 className={`bg-[#1F2232] mt-3 h-7 p-6 rounded-lg text-[#888888] placeholder-[#888888] text-base placeholder:text-base ${errors.budget ? 'border border-red-500' : ''}`}
-                placeholder="예산을 숫자로 입력해주세요. ex.500(단위는 만원입니다.)"
+                placeholder="예산을 숫자로 입력해주세요. ex.500 (단위는 만원입니다.)"
                 type="number"
                 min={1}
                 value={inputValues.budget}
