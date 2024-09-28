@@ -8,3 +8,20 @@ services:
       - .env.local
     container_name: gotrip-app
     command: npm start
+    networks:
+      - gotrip-network
+  nginx:
+    image: nginx:latest
+    container_name: my-nginx
+    ports:
+      - '80:80'
+    volumes:
+      - ./nginx/conf.d:/etc/nginx/conf.d
+    depends_on:
+      - nextjs-app
+    networks:
+      - gotrip-network
+
+networks:
+  gotrip-network:
+    driver: bridge
