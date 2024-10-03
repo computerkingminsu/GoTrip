@@ -13,6 +13,7 @@ services:
       - TZ=Asia/Seoul
     networks:
       - gotrip-network
+    restart: always
 
   nextjs-app:
     build:
@@ -26,6 +27,7 @@ services:
     command: npm start
     networks:
       - gotrip-network
+    restart: always
 
 networks:
   gotrip-network:
