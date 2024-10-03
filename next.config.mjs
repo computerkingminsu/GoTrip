@@ -4,7 +4,6 @@ const nextConfig = {
   images: {
     domains: ['openweathermap.org', 'www.airvisual.com'],
   },
-  output: 'standalone',
 };
 
 export default nextConfig;
